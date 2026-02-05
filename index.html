@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="LawBuddy - Hukuk öğrencileri için akıllı çalışma asistanı. Kronometre, takvim, sözlük ve sosyal öğrenme özellikleriyle sınav hazırlığınızı kolaylaştırın.">
+    <meta name="keywords" content="hukuk, law, çalışma, sınav, kronometre, öğrenci, KPSS, hakimlik, avukatlık">
+    <meta name="author" content="LawBuddy">
+    <title>LawBuddy - Hukuk Çalışma Asistanınız</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="./icon.png">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav-logo">
+                <img src="./icon.png" alt="LawBuddy Logo" class="logo-icon">
+                <span class="logo-text">LawBuddy</span>
+            </div>
+            <a href="#download" class="nav-cta">Uygulamayı İndir</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-glow"></div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="gradient-text">Hukuk Çalışma</span>
+                    <br>Asistanınız
+                </h1>
+                <p class="hero-description">
+                    Hukuk sınavlarına hazırlık sürecindeki tüm ihtiyaçlarınızı LawBuddy uygulamasında birleştirdik.
+                    Akıllı kronometre, çalışma takvimi ve sosyal öğrenme özellikleriyle başarıya ulaşın.
+                </p>
+                <div class="store-buttons">
+                    <a href="https://apps.apple.com/tr/app/lawbuddy/id6755939517?l=tr" class="store-btn apple"
+                        target="_blank" rel="noopener">
+                        <svg class="store-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z" />
+                        </svg>
+                        <div class="store-text">
+                            <span class="store-label">App Store</span>
+                            <span class="store-name">Apple Store</span>
+                        </div>
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.lawbuddy.app" class="store-btn google"
+                        target="_blank" rel="noopener">
+                        <svg class="store-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.5,12.92 20.16,13.19L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z" />
+                        </svg>
+                        <div class="store-text">
+                            <span class="store-label">Google Play</span>
+                            <span class="store-name">Google Play</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="phone-mockup">
+                    <div class="phone-frame">
+                        <div class="phone-notch"></div>
+                        <div class="phone-screen">
+                            <div class="app-preview">
+                                <div class="app-header-mock">
+                                    <div class="app-title-mock">LawBuddy</div>
+                                </div>
+                                <div class="timer-mock">
+                                    <div class="timer-circle">
+                                        <span class="timer-value">02:34:15</span>
+                                    </div>
+                                    <div class="timer-buttons-mock">
+                                        <div class="mock-btn pause"></div>
+                                        <div class="mock-btn stop"></div>
+                                    </div>
+                                </div>
+                                <div class="stats-mock">
+                                    <div class="stat-item-mock">
+                                        <span class="stat-value-mock">156</span>
+                                        <span class="stat-label-mock">Saat</span>
+                                    </div>
+                                    <div class="stat-item-mock">
+                                        <span class="stat-value-mock">42</span>
+                                        <span class="stat-label-mock">Gün</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="floating-cards">
+                    <div class="floating-card card-1">
+                        <div class="card-icon">⏱️</div>
+                        <span>Kronometre</span>
+                    </div>
+                    <div class="floating-card card-2">
+                        <div class="card-icon">📚</div>
+                        <span>Sözlük</span>
+                    </div>
+                    <div class="floating-card card-3">
+                        <div class="card-icon">🏆</div>
+                        <span>Liderlik</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-wave">
+            <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M0 120L60 110C120 100 240 80 360 70C480 60 600 60 720 65C840 70 960 80 1080 85C1200 90 1320 90 1380 90L1440 90V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0Z"
+                    fill="white" />
+            </svg>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Uygulamanın Özellikleri</h2>
+                <p class="section-subtitle">Hukuk sınavlarına hazırlanırken ihtiyacınız olan her şey tek bir uygulamada
+                </p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon purple">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12,20A7,7 0 0,1 5,13A7,7 0 0,1 12,6A7,7 0 0,1 19,13A7,7 0 0,1 12,20M12,4A9,9 0 0,0 3,13A9,9 0 0,0 12,22A9,9 0 0,0 21,13A9,9 0 0,0 12,4M12.5,8H11V14L15.75,16.85L16.5,15.62L12.5,13.25V8M7.88,3.39L6.6,1.86L2,5.71L3.29,7.24L7.88,3.39M22,5.72L17.4,1.86L16.11,3.39L20.71,7.25L22,5.72Z" />
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Çalışma Kronometresi</h3>
+                    <p class="feature-desc">Gelişmiş kronometre ile çalışma sürelerinizi takip edin. Live Activity ve
+                        Widget desteği ile her an güncel kalın.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon teal">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1M17,12H12V17H17V12Z" />
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Çalışma Takvimi</h3>
+                    <p class="feature-desc">Günlük, haftalık ve aylık çalışma istatistiklerinizi görsel takvimde
+                        inceleyin.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon orange">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12,5.5A3.5,3.5 0 0,1 15.5,9A3.5,3.5 0 0,1 12,12.5A3.5,3.5 0 0,1 8.5,9A3.5,3.5 0 0,1 12,5.5M5,8C5.56,8 6.08,8.15 6.53,8.42C6.38,9.85 6.8,11.27 7.66,12.38C7.16,13.34 6.16,14 5,14A3,3 0 0,1 2,11A3,3 0 0,1 5,8M19,8A3,3 0 0,1 22,11A3,3 0 0,1 19,14C17.84,14 16.84,13.34 16.34,12.38C17.2,11.27 17.62,9.85 17.47,8.42C17.92,8.15 18.44,8 19,8M5.5,18.25C5.5,16.18 8.41,14.5 12,14.5C15.59,14.5 18.5,16.18 18.5,18.25V20H5.5V18.25M0,20V18.5C0,17.11 1.89,15.94 4.45,15.6C3.86,16.28 3.5,17.22 3.5,18.25V20H0M24,20H20.5V18.25C20.5,17.22 20.14,16.28 19.55,15.6C22.11,15.94 24,17.11 24,18.5V20Z" />
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Sanal Sınıf</h3>
+                    <p class="feature-desc">Arkadaşlarınızla birlikte çalışın, birbirinizi motive edin ve birlikte
+                        başarıya ulaşın.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon pink">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M5,16L3,5L8.5,10L12,4L15.5,10L21,5L19,16H5M19,19A1,1 0 0,1 18,20H6A1,1 0 0,1 5,19V18H19V19Z" />
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Liderlik Tablosu</h3>
+                    <p class="feature-desc">Diğer öğrencilerle rekabet edin ve günlük, haftalık sıralamalarda yerinizi
+                        görün.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon blue">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M18,22A2,2 0 0,0 20,20V4C20,2.89 19.1,2 18,2H12V9L9.5,7.5L7,9V2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18Z" />
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Hukuk Sözlüğü</h3>
+                    <p class="feature-desc">Kapsamlı hukuk terimleri sözlüğü ile kavramları hızlıca öğrenin.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon green">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M19,3H14.82C14.4,1.84 13.3,1 12,1C10.7,1 9.6,1.84 9.18,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3M12,3A1,1 0 0,1 13,4A1,1 0 0,1 12,5A1,1 0 0,1 11,4A1,1 0 0,1 12,3M7,7H17V5H19V19H5V5H7V7M17,11H7V9H17V11M15,15H7V13H15V15Z" />
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Notlar</h3>
+                    <p class="feature-desc">Çalışırken aldığınız notları düzenli bir şekilde saklayın ve kolayca erişin.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon red">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M19,3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3M9,17H7V10H9V17M13,17H11V7H13V17M17,17H15V13H17V17Z" />
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Analitik</h3>
+                    <p class="feature-desc">Detaylı istatistikler ile çalışma performansınızı analiz edin ve
+                        gelişiminizi takip edin.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon yellow">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12,8A4,4 0 0,1 16,12A4,4 0 0,1 12,16A4,4 0 0,1 8,12A4,4 0 0,1 12,8M12,10A2,2 0 0,0 10,12A2,2 0 0,0 12,14A2,2 0 0,0 14,12A2,2 0 0,0 12,10M10,22C9.75,22 9.54,21.82 9.5,21.58L9.13,18.93C8.5,18.68 7.96,18.34 7.44,17.94L4.95,18.95C4.73,19.03 4.46,18.95 4.34,18.73L2.34,15.27C2.21,15.05 2.27,14.78 2.46,14.63L4.57,12.97L4.5,12L4.57,11L2.46,9.37C2.27,9.22 2.21,8.95 2.34,8.73L4.34,5.27C4.46,5.05 4.73,4.96 4.95,5.05L7.44,6.05C7.96,5.66 8.5,5.32 9.13,5.07L9.5,2.42C9.54,2.18 9.75,2 10,2H14C14.25,2 14.46,2.18 14.5,2.42L14.87,5.07C15.5,5.32 16.04,5.66 16.56,6.05L19.05,5.05C19.27,4.96 19.54,5.05 19.66,5.27L21.66,8.73C21.79,8.95 21.73,9.22 21.54,9.37L19.43,11L19.5,12L19.43,13L21.54,14.63C21.73,14.78 21.79,15.05 21.66,15.27L19.66,18.73C19.54,18.95 19.27,19.04 19.05,18.95L16.56,17.95C16.04,18.34 15.5,18.68 14.87,18.93L14.5,21.58C14.46,21.82 14.25,22 14,22H10Z" />
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Hedef Belirleme</h3>
+                    <p class="feature-desc">Günlük ve haftalık çalışma hedeflerinizi belirleyin ve motivasyonunuzu
+                        artırın.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Unique Features Showcase -->
+    <section class="showcase" id="showcase">
+        <div class="showcase-glow"></div>
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">LawBuddy'nin Eşsiz Özellikleri</h2>
+                <p class="section-subtitle">Hukuk eğitimi için özel olarak tasarlanmış özellikler</p>
+            </div>
+            <div class="showcase-grid">
+                <div class="showcase-item">
+                    <div class="showcase-visual">
+                        <div class="showcase-phone">
+                            <div class="showcase-screen timer-showcase">
+                                <div class="showcase-timer-ring">
+                                    <span class="showcase-time">01:45:30</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="showcase-content">
+                        <h3>Akıllı Kronometre</h3>
+                        <p>Live Activity ve Widget desteği ile arka planda bile çalışma sürenizi takip edin. Kilit
+                            ekranında anlık bildirimler alın.</p>
+                    </div>
+                </div>
+                <div class="showcase-item reverse">
+                    <div class="showcase-visual">
+                        <div class="showcase-phone">
+                            <div class="showcase-screen leaderboard-showcase">
+                                <div class="leaderboard-item gold">
+                                    <span class="rank">1</span>
+                                    <span class="name">Cevdet A..</span>
+                                    <span class="hours">8.5 saat</span>
+                                </div>
+                                <div class="leaderboard-item silver">
+                                    <span class="rank">2</span>
+                                    <span class="name">Zeynep K.</span>
+                                    <span class="hours">7.2 saat</span>
+                                </div>
+                                <div class="leaderboard-item bronze">
+                                    <span class="rank">3</span>
+                                    <span class="name">Nur H.</span>
+                                    <span class="hours">6.8 saat</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="showcase-content">
+                        <h3>Liderlik Tablosu</h3>
+                        <p>Günlük aktif yüzlerce hukuk öğrencisi ile rekabet ortamı. Motivasyonunuzu yüksek tutun ve
+                            başarıya ulaşın.</p>
+                    </div>
+                </div>
+                <div class="showcase-item">
+                    <div class="showcase-visual">
+                        <div class="showcase-phone">
+                            <div class="showcase-screen dictionary-showcase">
+                                <div class="dict-search">
+                                    <span class="search-icon">🔍</span>
+                                    <span>Ara...</span>
+                                </div>
+                                <div class="dict-item">
+                                    <span class="term">Müeyyide</span>
+                                    <span class="def">Yaptırım, ceza</span>
+                                </div>
+                                <div class="dict-item">
+                                    <span class="term">Temyiz</span>
+                                    <span class="def">Üst mahkemeye başvuru</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="showcase-content">
+                        <h3>Hukuk Sözlüğü</h3>
+                        <p>Kapsamlı hukuk terimleri veritabanı ile kavramları anında öğrenin. Arama ve favorilere ekleme
+                            özellikleri.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- App Preview Section -->
+    <section class="app-preview-section" id="app">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Mobil Uygulamamıza Göz Atın</h2>
+                <p class="section-subtitle">Modern ve kullanıcı dostu arayüz ile hukuk çalışmalarınızı kolaylaştırın</p>
+            </div>
+            <div class="app-screenshots">
+                <div class="screenshot-track">
+                    <div class="screenshot-card">
+                        <div class="mock-screen home-mock">
+                            <div class="mock-header">
+                                <span class="mock-greeting">Merhaba, Öğrenci 👋</span>
+                            </div>
+                            <div class="mock-quick-stats">
+                                <div class="quick-stat">
+                                    <span class="qs-value">156</span>
+                                    <span class="qs-label">Toplam Saat</span>
+                                </div>
+                                <div class="quick-stat">
+                                    <span class="qs-value">42</span>
+                                    <span class="qs-label">Gün Serisi</span>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="screenshot-label">Ana Sayfa</span>
+                    </div>
+                    <div class="screenshot-card">
+                        <div class="mock-screen calendar-mock">
+                            <div class="mock-calendar-grid">
+                                <div class="cal-day"></div>
+                                <div class="cal-day active"></div>
+                                <div class="cal-day"></div>
+                                <div class="cal-day highlight"></div>
+                                <div class="cal-day"></div>
+                                <div class="cal-day active"></div>
+                                <div class="cal-day highlight"></div>
+                            </div>
+                        </div>
+                        <span class="screenshot-label">Takvim</span>
+                    </div>
+                    <div class="screenshot-card">
+                        <div class="mock-screen classroom-mock">
+                            <div class="mock-classroom-header">Sınıf: Hukuk 2024</div>
+                            <div class="mock-members">
+                                <div class="mock-member">
+                                    <div class="member-avatar">A</div>
+                                    <span>4.5 saat</span>
+                                </div>
+                                <div class="mock-member">
+                                    <div class="member-avatar">B</div>
+                                    <span>3.2 saat</span>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="screenshot-label">Sınıf</span>
+                    </div>
+                    <div class="screenshot-card">
+                        <div class="mock-screen analytics-mock">
+                            <div class="mock-chart">
+                                <div class="chart-bar" style="height: 60%"></div>
+                                <div class="chart-bar" style="height: 80%"></div>
+                                <div class="chart-bar" style="height: 45%"></div>
+                                <div class="chart-bar" style="height: 90%"></div>
+                                <div class="chart-bar" style="height: 70%"></div>
+                            </div>
+                        </div>
+                        <span class="screenshot-label">Analitik</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section class="download" id="download">
+        <div class="download-glow"></div>
+        <div class="container">
+            <div class="download-content">
+                <h2 class="download-title">Hemen Başlayın</h2>
+                <p class="download-desc">LawBuddy'yi indirin ve hukuk sınavlarına hazırlık sürecinizi bugün başlatın!
+                </p>
+                <div class="download-buttons">
+                    <a href="https://apps.apple.com/tr/app/lawbuddy/id6755939517?l=tr" class="download-btn apple"
+                        target="_blank" rel="noopener">
+                        <svg class="download-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z" />
+                        </svg>
+                        <div class="download-text">
+                            <span class="download-label">Download on the</span>
+                            <span class="download-name">App Store</span>
+                        </div>
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.lawbuddy.app" class="download-btn google"
+                        target="_blank" rel="noopener">
+                        <svg class="download-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.5,12.92 20.16,13.19L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z" />
+                        </svg>
+                        <div class="download-text">
+                            <span class="download-label">GET IT ON</span>
+                            <span class="download-name">Google Play</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <img src="./icon.png" alt="LawBuddy Logo" class="footer-logo-icon">
+                        <span class="footer-logo-text">LawBuddy</span>
+                    </div>
+                    <p class="footer-tagline">Hukuk öğrencileri için akıllı çalışma asistanı</p>
+                    <div class="footer-contact">
+                        <a href="mailto:lawbuddy.cat@gmail.com" class="contact-item">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" />
+                            </svg>
+                            <span>lawbuddy.cat@gmail.com</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Yasal</h4>
+                    <ul>
+                        <li><a href="#">Kullanım Şartları</a></li>
+                        <li><a href="https://www.termsfeed.com/live/201c71c8-8b90-42e4-b5f2-d0392f8af32c"
+                                target="_blank" rel="noopener">Gizlilik Politikası</a></li>
+                        <li><a href="https://www.termsfeed.com/live/201c71c8-8b90-42e4-b5f2-d0392f8af32c"
+                                target="_blank" rel="noopener">KVKK Aydınlatma Metni</a></li>
+                    </ul>
+                </div>
+                <div class="footer-download">
+                    <h4>Uygulamayı İndir</h4>
+                    <div class="footer-store-buttons">
+                        <a href="https://apps.apple.com/tr/app/lawbuddy/id6755939517?l=tr" class="footer-store-btn"
+                            target="_blank" rel="noopener">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z" />
+                            </svg>
+                            <span>App Store</span>
+                        </a>
+                        <a href="https://play.google.com/store/apps/details?id=com.lawbuddy.app"
+                            class="footer-store-btn" target="_blank" rel="noopener">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.5,12.92 20.16,13.19L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z" />
+                            </svg>
+                            <span>Google Play</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 LawBuddy. Tüm hakları saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+</CodeContent>
+<parameter name="EmptyFile">false
